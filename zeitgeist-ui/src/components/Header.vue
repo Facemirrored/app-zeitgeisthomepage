@@ -1,8 +1,6 @@
 <template>
   <div>
         <b-navbar class="bg-transparent navbar-dark navbar navbar-expand-lg" fixed="true">
-          <b-navbar-brand href="#">
-          </b-navbar-brand>
           <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
           <b-collapse id="nav-collapse" is-nav>

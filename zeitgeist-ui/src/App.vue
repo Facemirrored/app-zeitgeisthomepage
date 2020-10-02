@@ -3,8 +3,8 @@
     <Header></Header>
     <div class="left-container">
       <div class="row">
-        <div class="col-lg-2 col-lg-10 ">
-          <img class="img-fluid" style="width: 50%; height: 50%" src="./assets/logo.svg">
+        <div class="col-md-2">
+          <img class="logo" src="./assets/logo.svg">
         </div>
       </div>
     </div>
@@ -19,17 +19,32 @@
     name: 'App',
     components: {Header},
     data() {
-      return {
-      }
+      return {}
     }
   }
 </script>
 
 <style>
-  body{
+  body {
     background-image: url("./assets/backgournd3.jpg");
     background-position: left;
     background-attachment: fixed;
     background-repeat: no-repeat;
+  }
+
+  .logo {
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: auto;
+    display: block;
+    width: 30%;
+  }
+
+
+  @media screen and (min-width: 1200px) {
+    .logo {
+      width: 30%;
+    }
   }
 </style>
